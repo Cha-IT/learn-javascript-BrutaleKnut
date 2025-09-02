@@ -17,7 +17,11 @@ if (isNaN(alder)) {
 if (isNaN(alder)) {
     console.log('Folk som er' + ' ' + alder + ' ' + 'år gammel får ikke kjøre buss')
 } else if (alder >= 67) {
-    
+    console.log('Du skal kjøpe honnørbillett')
+} else if (alder >= 18) {
+    console.log('Du skal kjøpe voksenbillett')
+} else {
+    console.log('Du skal kjøpe barnebillett')
 }
 
 let number = prompt('Skriv et tall', 1)
